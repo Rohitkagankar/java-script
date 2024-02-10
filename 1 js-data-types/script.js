@@ -46,4 +46,5 @@ console.log(student.age);
 console.log(student);
 console.log(student["city"]);
 console.log(student.name);
+console.log(typeof(student.cgpa));
 
