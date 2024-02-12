@@ -41,10 +41,11 @@ const student={            //object
     ispass:true,
     age:21
 }
+console.log(student.cgpa);
 student['age']=student['age']+1;
 console.log(student.age);
 console.log(student);
 console.log(student["city"]);
 console.log(student.name);
-console.log(typeof(student.cgpa));
+
 
