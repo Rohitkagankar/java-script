@@ -1,4 +1,4 @@
-//functions in js
+//functions and methods in js
 function myfunction(){
     console.log("hello");
     console.log("we are learning js. ");
@@ -88,7 +88,39 @@ let res=arr2.reduce((res,curr) => {
 });
 console.log(res);
 
-let resu=arr2.reduce((res,curr) => {
-    return res+curr;
+//to find largest number from array
+let resu=arr2.reduce((prev,curr) => {
+    return prev > curr ? prev: curr;
 });
 console.log(resu);
+
+//to find marks >= 90
+let marks1=[76,55,91,90,76,95,99];
+let newmarks=marks1.filter((val)=>{
+    return (val>=90);
+});
+console.log(newmarks);
+
+// let n1=prompt("Enter a number");
+let n1=5;
+let arr11=[];
+for (let i=1; i<=n1; i++){
+    arr11.push(i);
+}
+console.log(arr11);
+
+
+
+let nmark=marks1.reduce((prev,curr)=>{
+    return prev+curr;
+
+});
+console.log(nmark);
+
+//factorial by reduce 
+let mark12=[1,2,3,4,5];
+let nfac=mark12.reduce((prev,curr)=>{
+    return prev*curr;
+
+});
+console.log(nfac);
