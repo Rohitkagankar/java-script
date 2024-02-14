@@ -50,3 +50,45 @@ for (let i=0; i<prices.length; i++){
     prices[i]=prices[i] - offer;
 }
 console.log(prices);
+
+//array methods
+
+let items_fruits=["apple", "mango","banana"];
+items_fruits.push("grapes");   //push at the end
+console.log(items_fruits);
+
+let deleted=items_fruits.pop();  //pop deletes last item
+console.log(deleted);
+console.log(items_fruits.toString());
+
+let fruit=["grapes","peru"];
+let newlist=fruit.concat(items_fruits);  //concate joins two arrays
+console.log(newlist);
+
+fruit.unshift("orange");   //unshift returns value at start 
+console.log(fruit);
+
+let delval=fruit.shift();  //shift deletes the start value
+console.log(delval);
+
+console.log(fruit.slice(0,));  //slice
+
+let arr1=[22,33,44,55,66,77,88];  //splice add remove replace
+arr1.splice(1,2,1,2);       //replace  
+console.log(arr1);
+
+arr1.slice(1,0,123);
+console.log(arr1);
+
+arr1.slice(0,1);
+console.log(arr1);
+
+let companies=["Blooberg","Microsoft","Uber","Google","IBM","Netflix"];
+companies.shift();
+console.log(companies);
+
+companies.splice(1,1,"Ola");
+console.log(companies);
+
+companies.push("Amazon");
+console.log(companies);
