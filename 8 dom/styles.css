@@ -1,0 +1,16 @@
+h1{
+    color: rgb(0, 255, 89);
+    background-color: rgb(237, 143, 21);
+    /* text-align: center; */
+    text-decoration: underline;
+    
+}
+body{
+    background: #b98cdb;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+button{
+    background: #e5d715;
+}
