@@ -1,0 +1,8 @@
+#box{
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    color: black;
+    border: 2px solid black;
+    font-size: 24px;
+}
