@@ -81,3 +81,15 @@ class person extends vehicle{
 
 let p1=new person("Fz","1,50,000");
 console.log(p1.info(50));
+
+//error handling in js
+let a=10;
+let b=10;
+console.log("a+b =",a+b);
+try{
+    console.log("a+b =",a+c); //error
+}catch(err){
+    console.log("error is ",err);
+}
+
+console.log("a+b =",a+b);
