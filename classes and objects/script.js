@@ -59,3 +59,25 @@ emp1.name("Rohit");
 console.log(emp1.name("Ranjit"));
 console.log(emp1.comName());
 
+//super keyword
+class vehicle{
+    constructor(name){
+        this.name=name;
+        console.log(`Name of vehicle is ${name}`);
+    }
+    info(milese){
+        console.log(`milese is ${milese}`);
+    }
+}
+
+class person extends vehicle{
+    constructor(name,price){
+        super(name);
+        console.log(`price is ${price}`);
+    }
+
+    
+}
+
+let p1=new person("Fz","1,50,000");
+console.log(p1.info(50));
